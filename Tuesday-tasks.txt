@@ -1,0 +1,9 @@
+1. add 3 folders - artifacts, css, and Resources
+2. download the artifacts and resources from github.com/vico2162/sparkles.git
+3. add a css file in your css folder
+4. link your (just created) css file to your html file
+5. go to fontawesome.com and follow the directions there to link font awesome stylesheets.
+6. add social media icons to the footer (etsy, facebook, instagram, ebay)
+7. add a style to set the background color of the footer to your css file (item 4)
+8. add a media query that changes the background color when the screen width is over 800px
+9. apply a font to the html document.
