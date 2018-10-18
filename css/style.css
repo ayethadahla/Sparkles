@@ -58,6 +58,11 @@ div#MainContent {
   padding-bottom:20px;
 }
 
+div.bs_carousel {
+  /*max-width:1000px;*/
+  width:100%;
+  margin:0 auto;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
