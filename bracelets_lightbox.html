@@ -8,7 +8,9 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
 
 
 </head>
@@ -30,62 +32,32 @@
   </header>
 
 <div id="MainContent">
+  <!--from https://codepen.io/soumyajitn/pen/VbqLew -->
+  <div class="container">
   <div class="row">
-
-  <div class="col-sm-6 col-lg-3 col-md-4">
-    <div class="card bg-dark text-white">
-        <img class="card-img" src="images/HematiteAgateGray.jpg" alt="Hematite Agate Gray">
-        <div class="card-img-overlay">
-          <h5 class="card-title">HematiteAgateGray</h5>
-        </div>
-          <div>
-            <p class="card-text">$12.00</p>
-            <p class="card-text">Lava Rock Hematite Crazy Lace Agate Gray Silver Gemstone Beads Stretch Custom Handmade Jewelry
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-3 col-md-4">
-        <div class="card bg-dark text-white">
-            <img class="card-img" src="images/LavaRockTra.jpg" alt="African Lava Turquoise">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Lava Rock Turquoise</h5>
-          </div>
-            <div>
-            <p class="card-text">$12.00</p>
-            <p class="card-text">Lava Rock Gray Black Green African Turquoise Gemstone Beads Stretch Custom Handmade Jewelry</p>
-            </div>
-          </div>
-        </div>
-
-
-      <div class="col-sm-6 col-lg-3 col-md-4">
-        <div class="card bg-dark text-white">
-          <img class="card-img" src="images/LavaPurpleGray.jpg" alt="Lava Purple Gray">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Lava Purple Gray</h5>
-          </div>
-            <div>
-            <p class="card-text">$12.00</p>
-            <p class="card-text">Lava Rock Amethyst Hematite Gemstone Beads Purple Gray Stretch Custom Sizes Handmade Essential Oil Jewelry</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-3 col-md-4">
-        <div class="card bg-dark text-white">
-          <img class="card-img" src="images/7ChakraStones.jpg" alt="Seven Chakra Stones">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Seven Chakras</h5>
-          </div>
-            <div>
-            <p class="card-text">$14.50</p>
-            <p class="card-text">7 Chakra Stone Beads Genuine Gemstones Natural Lava Rock Custom Made Sizes Healing Balance</p>
-          </div>
-        </div>
-      </div>
- </div>
+    <a href="images/HematiteAgateGray.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/HematiteAgateGray.jpg" class="img-fluid rounded">
+    </a>
+    <a href="images/LavaRockDiffuser.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/LavaRockDiffuser.jpg" class="img-fluid rounded">
+    </a>
+    <a href="images/LavaPurpleGray.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/LavaPurpleGray.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="images/7ChakraStones.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/7ChakraStones.jpg" class="img-fluid rounded">
+    </a>
+    <a href="images/Coal Lava Rock.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/Coal Lava Rock.jpg" class="img-fluid rounded">
+    </a>
+    <a href="images/LavaRockTra.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/LavaRockTra.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+</div>
+  <!--from https://codepen.io/soumyajitn/pen/VbqLew -->
 </div>
 
       <footer>
@@ -103,6 +75,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+     <script src="Scripts/lightbox.js"></script>
   </body>
 </html>
